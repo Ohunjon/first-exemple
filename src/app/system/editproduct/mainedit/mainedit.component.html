@@ -1,0 +1,22 @@
+<table align="center" class="table">
+  <thead>
+  <tr>
+    <th>id</th>
+    <th>name of product</th>
+    <th>Update</th>
+    <th>Delete</th>
+  </tr>
+  </thead>
+
+  <tbody *ngIf="products">
+  <tr *ngFor="let p of products">
+    <td>{{p.id}}</td>
+    <td>{{p.name}}</td>
+    <td><button class="btn btn-success" [routerLink]="['/system/edit',p.id]">Update</button></td>
+    <td><button type="button" class="btn btn-danger" (click)="onDelete(p.id)">Delete</button></td>
+  </tr>
+  </tbody>
+</table>
+<div >
+  <button class="btn btn-success" [routerLink]="['/system','add']">Add new Products</button>
+</div>

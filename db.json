@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "name": "ohunjon",
+      "email": "ohun_jon96@mail.ru",
+      "password": "120896",
+      "phone": "929759256",
+      "id": 1
+    },
+    {
+      "name": "O_N",
+      "email": "alex@mail.com",
+      "password": "123456",
+      "phone": "6162626",
+      "id": 2
+    }
+  ],
+  "home": [
+    {
+      "img1": "1.jpg",
+      "img2": 2,
+      "img3": 3,
+      "img4": 4,
+      "article": "Flexbox requires some vendor Flexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendorFlexbox requires some vendor",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "name": "Mersedes-Benz c class 1yyyy",
+      "img": "1.jpg",
+      "price": "3000",
+      "description": "Tajikistan means the Land of the Tajiks The suffix stanis Persian for",
+      "id_user": 1,
+      "id": 1
+    },
+    {
+      "name": "Mersedec benz",
+      "img": "1.jpg",
+      "price": 2000,
+      "description": "its very good car",
+      "id_user": 2,
+      "id": 5
+    },
+    {
+      "name": "Opel",
+      "img": "1.jpg",
+      "price": 2000,
+      "description": "its very good car",
+      "id_user": 2,
+      "id": 6
+    },
+    {
+      "name": "Mersedec benz",
+      "img": "1.jpg",
+      "price": 2000,
+      "description": "its very good car",
+      "id_user": 2,
+      "id": 7
+    },
+    {
+      "name": "Matiz",
+      "img": "1.jpg",
+      "price": 2000,
+      "description": "its very good car",
+      "id_user": 2,
+      "id": 8
+    },
+    {
+      "name": "C-class",
+      "img": "1.jpg",
+      "price": 2000,
+      "description": "Its very nace car",
+      "id_user": 1,
+      "id": 9
+    },
+    {
+      "name": "hh.ru",
+      "img": "assets/1.jpg",
+      "price": 1234,
+      "description": "asdfghj",
+      "id_user": 2,
+      "id": 10
+    },
+    {
+      "name": "111",
+      "img": "1",
+      "price": 2,
+      "description": "kjbkjgkjgkj",
+      "id_user": 1,
+      "id": 11
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<header>
+  <ul class="navigation">
+    <li><a [routerLink]="['/system','home']">Home</a></li>
+    <li><a [routerLink]="['/system','products']">Products</a></li>
+    <li><a [routerLink]="['/system','contact']">Contacts</a></li>
+    <li class="m-log">
+      <a><i class="fa fa-user"></i>Wellcome {{user.name}}</a>
+      <ul class="navigation log-ul">
+        <li><a (click)="OnLogout()">Log log out</a></li>
+        <li><a [routerLink]="['/system','edit']">Edit product</a></li>
+      </ul>
+    </li>
+  </ul>
+</header>
+<div class="bacgroung">
+<div id="main-content">
+
+  <router-outlet></router-outlet>
+
+</div>
+</div>
+
+<footer>
+  <h1>It is footer</h1>
+</footer>

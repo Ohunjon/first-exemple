@@ -1,0 +1,24 @@
+<h1>Portfolio</h1>
+<div class="container">
+  <div class="item item-1"><img src="assets/img/{{home?.img1}}" /></div>
+  <div class="item item-2"><img src="assets/img/{{home?.img1}}" /></div>
+  <div class="item item-3"><img src="assets/img/{{home?.img1}}" /></div>
+  <div class="item item-4"><img src="assets/img/{{home?.img1}}" /></div>
+</div>
+<div class="main-article">
+  <h1 [innerHtml]="title"></h1>
+  <p><!--Flexbox requires some vendor prefixing to support the most browsers
+    possible. It doesn't just include prepending properties with the vendor
+    prefix, but there are actually entirely different property and value names.
+    This is because the Flexbox spec has changed over time, creating an "old",
+    "tweener", and "new" versions.
+
+    Perhaps the best way to handle this is to write in the new (and final)
+    syntax and run your CSS through Autoprefixer, which handles
+    the fallbacks very well.
+
+    Alternatively, here's a Sass @mixin to help with some of the prefixing,
+    which also gives you an idea of what kind of things need to be done:-->
+    {{ home?.article }}
+  </p>
+</div>
